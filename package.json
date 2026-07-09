@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "WorkNest SaaS — Backend API (Express + AWS Cognito + DynamoDB)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.1071.0",
+    "@aws-sdk/client-dynamodb": "^3.1071.0",
+    "@aws-sdk/client-s3": "^3.1071.0",
+    "@aws-sdk/client-ses": "^3.1080.0",
+    "@aws-sdk/client-sns": "^3.1080.0",
+    "@aws-sdk/lib-dynamodb": "^3.1071.0",
+    "@aws-sdk/s3-request-presigner": "^3.1073.0",
+    "@google/generative-ai": "^0.24.1",
+    "aws-jwt-verify": "^5.2.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "livekit-server-sdk": "^2.15.5",
+    "node-cron": "^4.4.1",
+    "nodemon": "^3.1.14",
+    "razorpay": "^2.9.6",
+    "uuid": "^14.0.0",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.18.1"
+  }
+}
