@@ -32,7 +32,7 @@ async function startServer() {
       console.log(`\n🚀 WorkNest API server running on http://localhost:${PORT}`);
       console.log(`   Environment : ${config.NODE_ENV}`);
       console.log(`   Region      : ${config.AWS_REGION}`);
-      console.log(`   Health Check: http://localhost:${PORT}/health\n`);
+      // console.log(`   Health Check: http://localhost:${PORT}/health\n`);
     });
 
     // 3. Attach WebSocket server
