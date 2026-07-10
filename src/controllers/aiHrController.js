@@ -24,7 +24,7 @@ const { TASK_MANAGER_TABLE, TASK_CHANNELS_TABLE, AI_HR_CHANNELS_TABLE, AI_CHAT_T
 // Free Nvidia Nemotron Ultra model via OpenRouter
 const AI_MODEL = 'openai/gpt-oss-120b:free';
 // Faster fallback for when the primary model is too slow or rate-limited
-const FALLBACK_MODEL = 'google/gemma-4-31b-it:free';
+const FALLBACK_MODEL = 'tencent/hy3:free';
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
 function getOpenRouterKey() {
